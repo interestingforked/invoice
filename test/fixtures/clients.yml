@@ -1,21 +1,61 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
 
 one:
-  company: MyString
-  forename: MyString
-  name: MyString
-  street: MyString
-  zip: MyString
-  city: MyString
-  country: MyString
-  comments: MyText
+  company: Müller GmbH
+  forename: Alfred
+  name: Müller
+  street: Dicke Strass 14
+  zip: 67823
+  city: Hodenhagen
+  country: Germany
+  comments: Toller kunde
 
 two:
-  company: MyString
-  forename: MyString
-  name: MyString
-  street: MyString
-  zip: MyString
-  city: MyString
-  country: MyString
-  comments: MyText
+  company: Meier AG
+  forename: Gertrud
+  name: Meier
+  street: Hauptstrasse 33
+  zip: 78932
+  city: Heidelberg
+  country: Germany
+  comments: 
+
+three:
+  company: Schuster AG
+  forename: Horst
+  name: Schuster
+  street: Poccistrasse 5
+  zip: 81234
+  city: München
+  country: Germany
+  comments: 
+
+four:
+  company: Schmidt KG
+  forename: Helmut
+  name: Schmidt
+  street: Nebenstrasse 12
+  zip: 78932
+  city: Heidelberg
+  country: Germany
+  comments: Frau hat das sagen
+
+five:
+  company: Pisch GmbH
+  forename: Thorsten
+  name: Köllermann
+  street: Keinestrasse 84 
+  zip: 98321
+  city: Nürnberg
+  country: Germany
+  comments: Kunde Zahlt nicht so gerne ... 
+
+six:
+  company: Hugenhobel GmbH
+  forename: Brunhilde
+  name: Rindfleisch
+  street: Ghettogasse 75
+  zip: 32618
+  city: Bielefeld
+  country: Germany
+  comments: wohnt in Bielefeld - das gibts tatsächlich ...

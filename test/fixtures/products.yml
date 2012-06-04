@@ -1,13 +1,19 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
 
 one:
-  sku: MyString
-  name: MyString
-  description: MyText
-  price: 1.5
+  sku: 2993
+  name: Maplebook Pro
+  description: Gute alternative zum Apfel
+  price: 2380
 
 two:
-  sku: MyString
-  name: MyString
-  description: MyText
-  price: 1.5
+  sku: 2347
+  name: Microsaft Win-Doors
+  description: Good Operating System with doors ...
+  price: 79
+
+three:
+  sku: 2376
+  name: U-Tuntu
+  description: Best Limox Operating System in the World
+  price: 29
