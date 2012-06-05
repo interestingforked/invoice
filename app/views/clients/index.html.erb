@@ -1,34 +1,30 @@
-<h1>Listing clients</h1>
+<h1>Kundenübersicht</h1>
 
 <table>
-  <tr>
-    <th>Company</th>
-    <th>Forename</th>
-    <th>Name</th>
-    <th>Street</th>
-    <th>Zip</th>
-    <th>City</th>
-    <th>Country</th>
-    <th>Comments</th>
-    <th></th>
-    <th></th>
-    <th></th>
-  </tr>
-
+ 
 <% @clients.each do |client| %>
-  <tr>
-    <td><%= client.company %></td>
-    <td><%= client.forename %></td>
-    <td><%= client.name %></td>
-    <td><%= client.street %></td>
-    <td><%= client.zip %></td>
-    <td><%= client.city %></td>
-    <td><%= client.country %></td>
-    <td><%= client.comments %></td>
-    <td><%= link_to 'Show', client %></td>
-    <td><%= link_to 'Edit', edit_client_path(client) %></td>
-    <td><%= link_to 'Destroy', client, confirm: 'Are you sure?', method: :delete %></td>
-  </tr>
+    <tr>
+        <td><b><%= client.company %></b></td>
+    </tr>
+    <tr>
+        <td>
+        <%= client.forename %> <%= client.name %>
+        <br><%= client.street %>
+        <br><%= client.zip %> <%= client.city %>
+        <br><%= client.country %><br><br>
+        <b>Kunden Notiz:</b> <br><%= client.comments %>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <%= link_to 'Details', client %> 
+            <%= link_to 'bearbeiten', edit_client_path(client) %> 
+            <%= link_to 'Löschen', client, confirm: 'Are you sure?', method: :delete %>
+        </td>
+    </tr>
+    <tr>
+        <td><hr style="margin: 30px 0;"></td>
+    </tr>
 <% end %>
 </table>
 

@@ -1324,3 +1324,1987 @@ Served asset /invoices.js - 200 OK (0ms)
 
 Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-06-04 22:40:03 +0200
 Served asset /application.js - 200 OK (1ms)
+
+
+Started GET "/assets/rails.png" for 127.0.0.1 at 2012-06-05 09:55:57 +0200
+Served asset /rails.png - 200 OK (20ms)
+
+
+Started GET "/invoices" for 127.0.0.1 at 2012-06-05 09:56:08 +0200
+  Processing by InvoicesController#index as HTML
+  [1m[36mInvoice Load (0.6ms)[0m  [1mSELECT `invoices`.* FROM `invoices` [0m
+Rendered invoices/index.html.erb within layouts/application (39.9ms)
+Completed 200 OK in 258ms (Views: 254.4ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-05 09:56:09 +0200
+Served asset /application.css - 200 OK (2ms)
+
+
+Started GET "/assets/invoices.css?body=1" for 127.0.0.1 at 2012-06-05 09:56:09 +0200
+Served asset /invoices.css - 200 OK (10ms)
+
+
+Started GET "/assets/clients.css?body=1" for 127.0.0.1 at 2012-06-05 09:56:09 +0200
+Served asset /clients.css - 200 OK (3ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-06-05 09:56:09 +0200
+Served asset /scaffolds.css - 200 OK (3ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-06-05 09:56:09 +0200
+Served asset /jquery.js - 200 OK (5ms)
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2012-06-05 09:56:09 +0200
+Served asset /products.css - 200 OK (3ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-06-05 09:56:10 +0200
+Served asset /jquery_ujs.js - 200 OK (6ms)
+
+
+Started GET "/assets/clients.js?body=1" for 127.0.0.1 at 2012-06-05 09:56:10 +0200
+Served asset /clients.js - 200 OK (2ms)
+
+
+Started GET "/assets/invoices.js?body=1" for 127.0.0.1 at 2012-06-05 09:56:10 +0200
+Served asset /invoices.js - 200 OK (2ms)
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2012-06-05 09:56:10 +0200
+Served asset /products.js - 200 OK (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-06-05 09:56:10 +0200
+Served asset /application.js - 200 OK (41ms)
+
+
+Started DELETE "/invoices/298486374" for 127.0.0.1 at 2012-06-05 09:56:14 +0200
+  Processing by InvoicesController#destroy as HTML
+  Parameters: {"authenticity_token"=>"qRxyId3EoNMHGbR/QoFYgUkvC9j517+eSCt8zqGK1v4=", "id"=>"298486374"}
+  [1m[35mInvoice Load (0.4ms)[0m  SELECT `invoices`.* FROM `invoices` WHERE `invoices`.`id` = 298486374 LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  DELETE FROM `invoices` WHERE `invoices`.`id` = 298486374
+  [1m[36m (83.9ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/invoices
+Completed 302 Found in 115ms
+
+
+Started GET "/invoices" for 127.0.0.1 at 2012-06-05 09:56:15 +0200
+  Processing by InvoicesController#index as HTML
+  [1m[35mInvoice Load (0.3ms)[0m  SELECT `invoices`.* FROM `invoices` 
+Rendered invoices/index.html.erb within layouts/application (6.0ms)
+Completed 200 OK in 17ms (Views: 14.0ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-05 09:56:15 +0200
+Served asset /application.css - 200 OK (3ms)
+
+
+Started GET "/assets/clients.css?body=1" for 127.0.0.1 at 2012-06-05 09:56:15 +0200
+Served asset /clients.css - 200 OK (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-06-05 09:56:15 +0200
+Served asset /scaffolds.css - 200 OK (0ms)
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2012-06-05 09:56:15 +0200
+Served asset /products.css - 200 OK (0ms)
+
+
+Started GET "/assets/invoices.css?body=1" for 127.0.0.1 at 2012-06-05 09:56:15 +0200
+Served asset /invoices.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-06-05 09:56:15 +0200
+Served asset /jquery.js - 200 OK (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-06-05 09:56:15 +0200
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/clients.js?body=1" for 127.0.0.1 at 2012-06-05 09:56:15 +0200
+Served asset /clients.js - 200 OK (0ms)
+
+
+Started GET "/assets/invoices.js?body=1" for 127.0.0.1 at 2012-06-05 09:56:15 +0200
+Served asset /invoices.js - 200 OK (0ms)
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2012-06-05 09:56:15 +0200
+Served asset /products.js - 200 OK (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-06-05 09:56:15 +0200
+Served asset /application.js - 200 OK (1ms)
+
+
+Started DELETE "/invoices/980190962" for 127.0.0.1 at 2012-06-05 09:56:16 +0200
+  Processing by InvoicesController#destroy as HTML
+  Parameters: {"authenticity_token"=>"qRxyId3EoNMHGbR/QoFYgUkvC9j517+eSCt8zqGK1v4=", "id"=>"980190962"}
+  [1m[36mInvoice Load (0.3ms)[0m  [1mSELECT `invoices`.* FROM `invoices` WHERE `invoices`.`id` = 980190962 LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mDELETE FROM `invoices` WHERE `invoices`.`id` = 980190962[0m
+  [1m[35m (39.1ms)[0m  COMMIT
+Redirected to http://localhost:3000/invoices
+Completed 302 Found in 49ms
+
+
+Started GET "/invoices" for 127.0.0.1 at 2012-06-05 09:56:16 +0200
+  Processing by InvoicesController#index as HTML
+  [1m[36mInvoice Load (0.3ms)[0m  [1mSELECT `invoices`.* FROM `invoices` [0m
+Rendered invoices/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 10ms (Views: 8.5ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-05 09:56:16 +0200
+Served asset /application.css - 200 OK (9ms)
+
+
+Started GET "/assets/clients.css?body=1" for 127.0.0.1 at 2012-06-05 09:56:16 +0200
+Served asset /clients.css - 200 OK (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-06-05 09:56:16 +0200
+Served asset /scaffolds.css - 200 OK (0ms)
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2012-06-05 09:56:16 +0200
+Served asset /products.css - 200 OK (0ms)
+
+
+Started GET "/assets/invoices.css?body=1" for 127.0.0.1 at 2012-06-05 09:56:16 +0200
+Served asset /invoices.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-06-05 09:56:16 +0200
+Served asset /jquery.js - 200 OK (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-06-05 09:56:16 +0200
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/clients.js?body=1" for 127.0.0.1 at 2012-06-05 09:56:16 +0200
+Served asset /clients.js - 200 OK (0ms)
+
+
+Started GET "/assets/invoices.js?body=1" for 127.0.0.1 at 2012-06-05 09:56:16 +0200
+Served asset /invoices.js - 200 OK (0ms)
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2012-06-05 09:56:16 +0200
+Served asset /products.js - 200 OK (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-06-05 09:56:16 +0200
+Served asset /application.js - 200 OK (1ms)
+
+
+Started GET "/invoices/new" for 127.0.0.1 at 2012-06-05 09:56:17 +0200
+  Processing by InvoicesController#new as HTML
+Rendered invoices/_form.html.erb (15.8ms)
+Rendered invoices/new.html.erb within layouts/application (34.4ms)
+Completed 200 OK in 45ms (Views: 43.6ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-05 09:56:17 +0200
+Served asset /application.css - 200 OK (5ms)
+
+
+Started GET "/assets/clients.css?body=1" for 127.0.0.1 at 2012-06-05 09:56:17 +0200
+Served asset /clients.css - 200 OK (0ms)
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2012-06-05 09:56:17 +0200
+Served asset /products.css - 200 OK (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-06-05 09:56:17 +0200
+Served asset /scaffolds.css - 200 OK (2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-06-05 09:56:17 +0200
+Served asset /jquery.js - 200 OK (0ms)
+
+
+Started GET "/assets/invoices.css?body=1" for 127.0.0.1 at 2012-06-05 09:56:17 +0200
+Served asset /invoices.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-06-05 09:56:17 +0200
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/clients.js?body=1" for 127.0.0.1 at 2012-06-05 09:56:17 +0200
+Served asset /clients.js - 200 OK (0ms)
+
+
+Started GET "/assets/invoices.js?body=1" for 127.0.0.1 at 2012-06-05 09:56:17 +0200
+Served asset /invoices.js - 200 OK (0ms)
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2012-06-05 09:56:17 +0200
+Served asset /products.js - 200 OK (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-06-05 09:56:17 +0200
+Served asset /application.js - 200 OK (0ms)
+
+
+Started POST "/invoices" for 127.0.0.1 at 2012-06-05 09:56:22 +0200
+  Processing by InvoicesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"qRxyId3EoNMHGbR/QoFYgUkvC9j517+eSCt8zqGK1v4=", "invoice"=>{"clients_id"=>"1", "products_id"=>"2"}, "commit"=>"Create Invoice"}
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO `invoices` (`clients_id`, `created_at`, `products_id`, `updated_at`) VALUES ('1', '2012-06-05 07:56:22', '2', '2012-06-05 07:56:22')[0m
+  [1m[35m (49.9ms)[0m  COMMIT
+Redirected to http://localhost:3000/invoices/980190963
+Completed 302 Found in 130ms
+
+
+Started GET "/invoices/980190963" for 127.0.0.1 at 2012-06-05 09:56:22 +0200
+  Processing by InvoicesController#show as HTML
+  Parameters: {"id"=>"980190963"}
+  [1m[36mInvoice Load (0.3ms)[0m  [1mSELECT `invoices`.* FROM `invoices` WHERE `invoices`.`id` = 980190963 LIMIT 1[0m
+Rendered invoices/show.html.erb within layouts/application (5.1ms)
+Completed 200 OK in 17ms (Views: 13.6ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-05 09:56:22 +0200
+Served asset /application.css - 200 OK (7ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-06-05 09:56:22 +0200
+Served asset /scaffolds.css - 200 OK (0ms)
+
+
+Started GET "/assets/clients.css?body=1" for 127.0.0.1 at 2012-06-05 09:56:22 +0200
+Served asset /clients.css - 200 OK (0ms)
+
+
+Started GET "/assets/invoices.css?body=1" for 127.0.0.1 at 2012-06-05 09:56:22 +0200
+Served asset /invoices.css - 200 OK (5ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-06-05 09:56:22 +0200
+Served asset /jquery.js - 200 OK (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-06-05 09:56:22 +0200
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2012-06-05 09:56:22 +0200
+Served asset /products.css - 200 OK (0ms)
+
+
+Started GET "/assets/clients.js?body=1" for 127.0.0.1 at 2012-06-05 09:56:22 +0200
+Served asset /clients.js - 200 OK (0ms)
+
+
+Started GET "/assets/invoices.js?body=1" for 127.0.0.1 at 2012-06-05 09:56:22 +0200
+Served asset /invoices.js - 200 OK (0ms)
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2012-06-05 09:56:22 +0200
+Served asset /products.js - 200 OK (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-06-05 09:56:22 +0200
+Served asset /application.js - 200 OK (2ms)
+
+
+Started GET "/invoices" for 127.0.0.1 at 2012-06-05 09:56:23 +0200
+  Processing by InvoicesController#index as HTML
+  [1m[35mInvoice Load (0.3ms)[0m  SELECT `invoices`.* FROM `invoices` 
+Rendered invoices/index.html.erb within layouts/application (49.2ms)
+Completed 200 OK in 60ms (Views: 57.1ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-05 09:56:23 +0200
+Served asset /application.css - 200 OK (0ms)
+
+
+Started GET "/assets/clients.css?body=1" for 127.0.0.1 at 2012-06-05 09:56:23 +0200
+Served asset /clients.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-06-05 09:56:23 +0200
+Served asset /jquery.js - 200 OK (0ms)
+
+
+Started GET "/assets/invoices.css?body=1" for 127.0.0.1 at 2012-06-05 09:56:23 +0200
+Served asset /invoices.css - 200 OK (0ms)
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2012-06-05 09:56:23 +0200
+Served asset /products.css - 200 OK (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-06-05 09:56:23 +0200
+Served asset /scaffolds.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-06-05 09:56:23 +0200
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/clients.js?body=1" for 127.0.0.1 at 2012-06-05 09:56:23 +0200
+Served asset /clients.js - 200 OK (0ms)
+
+
+Started GET "/assets/invoices.js?body=1" for 127.0.0.1 at 2012-06-05 09:56:23 +0200
+Served asset /invoices.js - 200 OK (0ms)
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2012-06-05 09:56:23 +0200
+Served asset /products.js - 200 OK (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-06-05 09:56:23 +0200
+Served asset /application.js - 200 OK (0ms)
+
+
+Started GET "/users" for 127.0.0.1 at 2012-06-05 09:58:22 +0200
+
+ActionController::RoutingError (No route matches [GET] "/users"):
+  
+
+Rendered /home/bigdaddy/.rvm/gems/ruby-1.9.2-p136/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.6ms)
+
+
+Started GET "/clients" for 127.0.0.1 at 2012-06-05 09:58:26 +0200
+  Processing by ClientsController#index as HTML
+  [1m[36mClient Load (0.5ms)[0m  [1mSELECT `clients`.* FROM `clients` [0m
+Rendered clients/index.html.erb within layouts/application (62.0ms)
+Completed 200 OK in 80ms (Views: 77.5ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-05 09:58:26 +0200
+Served asset /application.css - 200 OK (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-06-05 09:58:26 +0200
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-06-05 09:58:26 +0200
+Served asset /scaffolds.css - 200 OK (0ms)
+
+
+Started GET "/assets/invoices.css?body=1" for 127.0.0.1 at 2012-06-05 09:58:26 +0200
+Served asset /invoices.css - 200 OK (0ms)
+
+
+Started GET "/assets/clients.css?body=1" for 127.0.0.1 at 2012-06-05 09:58:26 +0200
+Served asset /clients.css - 200 OK (0ms)
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2012-06-05 09:58:26 +0200
+Served asset /products.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-06-05 09:58:26 +0200
+Served asset /jquery.js - 200 OK (0ms)
+
+
+Started GET "/assets/clients.js?body=1" for 127.0.0.1 at 2012-06-05 09:58:26 +0200
+Served asset /clients.js - 200 OK (0ms)
+
+
+Started GET "/assets/invoices.js?body=1" for 127.0.0.1 at 2012-06-05 09:58:26 +0200
+Served asset /invoices.js - 200 OK (0ms)
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2012-06-05 09:58:26 +0200
+Served asset /products.js - 200 OK (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-06-05 09:58:26 +0200
+Served asset /application.js - 200 OK (1ms)
+
+
+Started GET "/clients" for 127.0.0.1 at 2012-06-05 10:22:44 +0200
+  Processing by ClientsController#index as HTML
+  [1m[35mClient Load (0.2ms)[0m  SELECT `clients`.* FROM `clients` 
+Rendered clients/index.html.erb within layouts/application (18.1ms)
+Completed 200 OK in 73ms (Views: 70.8ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-05 10:22:44 +0200
+Served asset /application.css - 200 OK (1ms)
+
+
+Started GET "/assets/invoices.css?body=1" for 127.0.0.1 at 2012-06-05 10:22:44 +0200
+Served asset /invoices.css - 200 OK (0ms)
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2012-06-05 10:22:44 +0200
+Served asset /products.css - 200 OK (0ms)
+
+
+Started GET "/assets/clients.css?body=1" for 127.0.0.1 at 2012-06-05 10:22:44 +0200
+Served asset /clients.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-06-05 10:22:44 +0200
+Served asset /jquery.js - 200 OK (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-06-05 10:22:44 +0200
+Served asset /scaffolds.css - 200 OK (0ms)
+
+
+Started GET "/assets/clients.js?body=1" for 127.0.0.1 at 2012-06-05 10:22:44 +0200
+Served asset /clients.js - 200 OK (0ms)
+
+
+Started GET "/assets/invoices.js?body=1" for 127.0.0.1 at 2012-06-05 10:22:44 +0200
+Served asset /invoices.js - 200 OK (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-06-05 10:22:44 +0200
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2012-06-05 10:22:44 +0200
+Served asset /products.js - 200 OK (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-06-05 10:22:44 +0200
+Served asset /application.js - 200 OK (0ms)
+
+
+Started GET "/clients" for 127.0.0.1 at 2012-06-05 12:35:35 +0200
+  Processing by ClientsController#index as HTML
+  [1m[36mClient Load (0.3ms)[0m  [1mSELECT `clients`.* FROM `clients` [0m
+Rendered clients/index.html.erb within layouts/application (34.1ms)
+Completed 200 OK in 148ms (Views: 145.9ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-05 12:35:36 +0200
+Served asset /application.css - 200 OK (10ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-06-05 12:35:36 +0200
+Served asset /jquery.js - 200 OK (12ms)
+
+
+Started GET "/assets/clients.css?body=1" for 127.0.0.1 at 2012-06-05 12:35:36 +0200
+Served asset /clients.css - 200 OK (7ms)
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2012-06-05 12:35:36 +0200
+Served asset /products.css - 200 OK (5ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-06-05 12:35:36 +0200
+Served asset /scaffolds.css - 200 OK (3ms)
+
+
+Started GET "/assets/invoices.css?body=1" for 127.0.0.1 at 2012-06-05 12:35:36 +0200
+Served asset /invoices.css - 200 OK (5ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-06-05 12:35:36 +0200
+Served asset /jquery_ujs.js - 200 OK (3ms)
+
+
+Started GET "/assets/clients.js?body=1" for 127.0.0.1 at 2012-06-05 12:35:36 +0200
+Served asset /clients.js - 200 OK (3ms)
+
+
+Started GET "/assets/invoices.js?body=1" for 127.0.0.1 at 2012-06-05 12:35:36 +0200
+Served asset /invoices.js - 200 OK (5ms)
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2012-06-05 12:35:36 +0200
+Served asset /products.js - 200 OK (3ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-06-05 12:35:36 +0200
+Served asset /application.js - 200 OK (6ms)
+
+
+Started GET "/clients" for 127.0.0.1 at 2012-06-05 12:36:19 +0200
+  Processing by ClientsController#index as HTML
+  [1m[35mClient Load (0.3ms)[0m  SELECT `clients`.* FROM `clients` 
+Rendered clients/index.html.erb within layouts/application (17.7ms)
+Completed 200 OK in 29ms (Views: 26.5ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-05 12:36:19 +0200
+Served asset /application.css - 200 OK (7ms)
+
+
+Started GET "/assets/invoices.css?body=1" for 127.0.0.1 at 2012-06-05 12:36:19 +0200
+Served asset /invoices.css - 200 OK (0ms)
+
+
+Started GET "/assets/clients.css?body=1" for 127.0.0.1 at 2012-06-05 12:36:19 +0200
+Served asset /clients.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-06-05 12:36:19 +0200
+Served asset /jquery.js - 200 OK (0ms)
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2012-06-05 12:36:19 +0200
+Served asset /products.css - 200 OK (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-06-05 12:36:19 +0200
+Served asset /scaffolds.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-06-05 12:36:19 +0200
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/clients.js?body=1" for 127.0.0.1 at 2012-06-05 12:36:19 +0200
+Served asset /clients.js - 200 OK (0ms)
+
+
+Started GET "/assets/invoices.js?body=1" for 127.0.0.1 at 2012-06-05 12:36:19 +0200
+Served asset /invoices.js - 200 OK (0ms)
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2012-06-05 12:36:19 +0200
+Served asset /products.js - 200 OK (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-06-05 12:36:19 +0200
+Served asset /application.js - 200 OK (1ms)
+
+
+Started GET "/clients" for 127.0.0.1 at 2012-06-05 12:36:31 +0200
+  Processing by ClientsController#index as HTML
+  [1m[36mClient Load (0.3ms)[0m  [1mSELECT `clients`.* FROM `clients` [0m
+Rendered clients/index.html.erb within layouts/application (22.3ms)
+Completed 200 OK in 36ms (Views: 32.9ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/clients.css?body=1" for 127.0.0.1 at 2012-06-05 12:36:31 +0200
+Served asset /clients.css - 200 OK (0ms)
+
+
+Started GET "/assets/invoices.css?body=1" for 127.0.0.1 at 2012-06-05 12:36:31 +0200
+Served asset /invoices.css - 200 OK (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-05 12:36:31 +0200
+Served asset /application.css - 200 OK (3ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-06-05 12:36:31 +0200
+Served asset /scaffolds.css - 200 OK (0ms)
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2012-06-05 12:36:31 +0200
+Served asset /products.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-06-05 12:36:31 +0200
+Served asset /jquery.js - 200 OK (0ms)
+
+
+Started GET "/assets/clients.js?body=1" for 127.0.0.1 at 2012-06-05 12:36:31 +0200
+Served asset /clients.js - 200 OK (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-06-05 12:36:31 +0200
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/invoices.js?body=1" for 127.0.0.1 at 2012-06-05 12:36:32 +0200
+Served asset /invoices.js - 200 OK (0ms)
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2012-06-05 12:36:32 +0200
+Served asset /products.js - 200 OK (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-06-05 12:36:32 +0200
+Served asset /application.js - 200 OK (58ms)
+
+
+Started GET "/clients" for 127.0.0.1 at 2012-06-05 12:36:56 +0200
+  Processing by ClientsController#index as HTML
+  [1m[35mClient Load (0.2ms)[0m  SELECT `clients`.* FROM `clients` 
+Rendered clients/index.html.erb within layouts/application (17.2ms)
+Completed 200 OK in 28ms (Views: 25.3ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-05 12:36:56 +0200
+Served asset /application.css - 200 OK (4ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-06-05 12:36:56 +0200
+Served asset /scaffolds.css - 200 OK (0ms)
+
+
+Started GET "/assets/invoices.css?body=1" for 127.0.0.1 at 2012-06-05 12:36:56 +0200
+Served asset /invoices.css - 200 OK (0ms)
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2012-06-05 12:36:56 +0200
+Served asset /products.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-06-05 12:36:56 +0200
+Served asset /jquery.js - 200 OK (0ms)
+
+
+Started GET "/assets/clients.css?body=1" for 127.0.0.1 at 2012-06-05 12:36:56 +0200
+Served asset /clients.css - 200 OK (0ms)
+
+
+Started GET "/assets/clients.js?body=1" for 127.0.0.1 at 2012-06-05 12:36:56 +0200
+Served asset /clients.js - 200 OK (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-06-05 12:36:56 +0200
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/invoices.js?body=1" for 127.0.0.1 at 2012-06-05 12:36:56 +0200
+Served asset /invoices.js - 200 OK (0ms)
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2012-06-05 12:36:56 +0200
+Served asset /products.js - 200 OK (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-06-05 12:36:56 +0200
+Served asset /application.js - 200 OK (1ms)
+
+
+Started GET "/clients" for 127.0.0.1 at 2012-06-05 12:38:23 +0200
+  Processing by ClientsController#index as HTML
+  [1m[36mClient Load (0.2ms)[0m  [1mSELECT `clients`.* FROM `clients` [0m
+Rendered clients/index.html.erb within layouts/application (20.2ms)
+Completed 200 OK in 32ms (Views: 29.3ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-05 12:38:23 +0200
+Served asset /application.css - 200 OK (7ms)
+
+
+Started GET "/assets/clients.css?body=1" for 127.0.0.1 at 2012-06-05 12:38:23 +0200
+Served asset /clients.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-06-05 12:38:23 +0200
+Served asset /jquery.js - 200 OK (0ms)
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2012-06-05 12:38:23 +0200
+Served asset /products.css - 200 OK (0ms)
+
+
+Started GET "/assets/invoices.css?body=1" for 127.0.0.1 at 2012-06-05 12:38:23 +0200
+Served asset /invoices.css - 200 OK (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-06-05 12:38:23 +0200
+Served asset /scaffolds.css - 200 OK (0ms)
+
+
+Started GET "/assets/clients.js?body=1" for 127.0.0.1 at 2012-06-05 12:38:23 +0200
+Served asset /clients.js - 200 OK (0ms)
+
+
+Started GET "/assets/invoices.js?body=1" for 127.0.0.1 at 2012-06-05 12:38:23 +0200
+Served asset /invoices.js - 200 OK (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-06-05 12:38:23 +0200
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2012-06-05 12:38:23 +0200
+Served asset /products.js - 200 OK (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-06-05 12:38:23 +0200
+Served asset /application.js - 200 OK (0ms)
+
+
+Started GET "/clients" for 127.0.0.1 at 2012-06-05 12:38:41 +0200
+  Processing by ClientsController#index as HTML
+  [1m[35mClient Load (0.4ms)[0m  SELECT `clients`.* FROM `clients` 
+Rendered clients/index.html.erb within layouts/application (18.9ms)
+Completed 200 OK in 31ms (Views: 27.7ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-05 12:38:41 +0200
+Served asset /application.css - 200 OK (10ms)
+
+
+Started GET "/assets/clients.css?body=1" for 127.0.0.1 at 2012-06-05 12:38:41 +0200
+Served asset /clients.css - 200 OK (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-06-05 12:38:41 +0200
+Served asset /scaffolds.css - 200 OK (0ms)
+
+
+Started GET "/assets/invoices.css?body=1" for 127.0.0.1 at 2012-06-05 12:38:41 +0200
+Served asset /invoices.css - 200 OK (0ms)
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2012-06-05 12:38:41 +0200
+Served asset /products.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-06-05 12:38:41 +0200
+Served asset /jquery.js - 200 OK (0ms)
+
+
+Started GET "/assets/clients.js?body=1" for 127.0.0.1 at 2012-06-05 12:38:41 +0200
+Served asset /clients.js - 200 OK (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-06-05 12:38:41 +0200
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/invoices.js?body=1" for 127.0.0.1 at 2012-06-05 12:38:41 +0200
+Served asset /invoices.js - 200 OK (0ms)
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2012-06-05 12:38:41 +0200
+Served asset /products.js - 200 OK (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-06-05 12:38:41 +0200
+Served asset /application.js - 200 OK (0ms)
+
+
+Started GET "/clients" for 127.0.0.1 at 2012-06-05 12:38:48 +0200
+  Processing by ClientsController#index as HTML
+  [1m[36mClient Load (0.2ms)[0m  [1mSELECT `clients`.* FROM `clients` [0m
+Rendered clients/index.html.erb within layouts/application (61.9ms)
+Completed 200 OK in 74ms (Views: 71.3ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/assets/invoices.css?body=1" for 127.0.0.1 at 2012-06-05 12:38:48 +0200
+Served asset /invoices.css - 200 OK (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-05 12:38:48 +0200
+Served asset /application.css - 200 OK (1ms)
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2012-06-05 12:38:48 +0200
+Served asset /products.css - 200 OK (0ms)
+
+
+Started GET "/assets/clients.css?body=1" for 127.0.0.1 at 2012-06-05 12:38:48 +0200
+Served asset /clients.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-06-05 12:38:48 +0200
+Served asset /jquery.js - 200 OK (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-06-05 12:38:48 +0200
+Served asset /scaffolds.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-06-05 12:38:48 +0200
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/clients.js?body=1" for 127.0.0.1 at 2012-06-05 12:38:48 +0200
+Served asset /clients.js - 200 OK (0ms)
+
+
+Started GET "/assets/invoices.js?body=1" for 127.0.0.1 at 2012-06-05 12:38:48 +0200
+Served asset /invoices.js - 200 OK (0ms)
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2012-06-05 12:38:48 +0200
+Served asset /products.js - 200 OK (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-06-05 12:38:48 +0200
+Served asset /application.js - 200 OK (1ms)
+
+
+Started GET "/clients" for 127.0.0.1 at 2012-06-05 12:38:57 +0200
+  Processing by ClientsController#index as HTML
+  [1m[35mClient Load (0.3ms)[0m  SELECT `clients`.* FROM `clients` 
+Rendered clients/index.html.erb within layouts/application (64.7ms)
+Completed 200 OK in 77ms (Views: 74.2ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-05 12:38:57 +0200
+Served asset /application.css - 200 OK (5ms)
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2012-06-05 12:38:57 +0200
+Served asset /products.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-06-05 12:38:57 +0200
+Served asset /jquery.js - 200 OK (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-06-05 12:38:57 +0200
+Served asset /scaffolds.css - 200 OK (0ms)
+
+
+Started GET "/assets/clients.css?body=1" for 127.0.0.1 at 2012-06-05 12:38:57 +0200
+Served asset /clients.css - 200 OK (0ms)
+
+
+Started GET "/assets/invoices.css?body=1" for 127.0.0.1 at 2012-06-05 12:38:57 +0200
+Served asset /invoices.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-06-05 12:38:57 +0200
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/invoices.js?body=1" for 127.0.0.1 at 2012-06-05 12:38:57 +0200
+Served asset /invoices.js - 200 OK (0ms)
+
+
+Started GET "/assets/clients.js?body=1" for 127.0.0.1 at 2012-06-05 12:38:57 +0200
+Served asset /clients.js - 200 OK (0ms)
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2012-06-05 12:38:57 +0200
+Served asset /products.js - 200 OK (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-06-05 12:38:57 +0200
+Served asset /application.js - 200 OK (1ms)
+
+
+Started GET "/clients" for 127.0.0.1 at 2012-06-05 12:39:05 +0200
+  Processing by ClientsController#index as HTML
+  [1m[36mClient Load (0.3ms)[0m  [1mSELECT `clients`.* FROM `clients` [0m
+Rendered clients/index.html.erb within layouts/application (18.4ms)
+Completed 200 OK in 30ms (Views: 27.0ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-05 12:39:06 +0200
+Served asset /application.css - 200 OK (62ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-06-05 12:39:06 +0200
+Served asset /scaffolds.css - 200 OK (0ms)
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2012-06-05 12:39:06 +0200
+Served asset /products.css - 200 OK (0ms)
+
+
+Started GET "/assets/clients.css?body=1" for 127.0.0.1 at 2012-06-05 12:39:06 +0200
+Served asset /clients.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-06-05 12:39:06 +0200
+Served asset /jquery.js - 200 OK (0ms)
+
+
+Started GET "/assets/invoices.css?body=1" for 127.0.0.1 at 2012-06-05 12:39:06 +0200
+Served asset /invoices.css - 200 OK (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-06-05 12:39:06 +0200
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/clients.js?body=1" for 127.0.0.1 at 2012-06-05 12:39:06 +0200
+Served asset /clients.js - 200 OK (0ms)
+
+
+Started GET "/assets/invoices.js?body=1" for 127.0.0.1 at 2012-06-05 12:39:06 +0200
+Served asset /invoices.js - 200 OK (0ms)
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2012-06-05 12:39:06 +0200
+Served asset /products.js - 200 OK (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-06-05 12:39:06 +0200
+Served asset /application.js - 200 OK (0ms)
+
+
+Started GET "/clients" for 127.0.0.1 at 2012-06-05 12:39:19 +0200
+  Processing by ClientsController#index as HTML
+  [1m[35mClient Load (0.3ms)[0m  SELECT `clients`.* FROM `clients` 
+Rendered clients/index.html.erb within layouts/application (22.7ms)
+Completed 200 OK in 36ms (Views: 33.3ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-05 12:39:19 +0200
+Served asset /application.css - 200 OK (2ms)
+
+
+Started GET "/assets/invoices.css?body=1" for 127.0.0.1 at 2012-06-05 12:39:19 +0200
+Served asset /invoices.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-06-05 12:39:19 +0200
+Served asset /jquery.js - 200 OK (0ms)
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2012-06-05 12:39:19 +0200
+Served asset /products.css - 200 OK (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-06-05 12:39:19 +0200
+Served asset /scaffolds.css - 200 OK (47ms)
+
+
+Started GET "/assets/clients.css?body=1" for 127.0.0.1 at 2012-06-05 12:39:19 +0200
+Served asset /clients.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-06-05 12:39:19 +0200
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/clients.js?body=1" for 127.0.0.1 at 2012-06-05 12:39:19 +0200
+Served asset /clients.js - 200 OK (0ms)
+
+
+Started GET "/assets/invoices.js?body=1" for 127.0.0.1 at 2012-06-05 12:39:19 +0200
+Served asset /invoices.js - 200 OK (0ms)
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2012-06-05 12:39:19 +0200
+Served asset /products.js - 200 OK (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-06-05 12:39:19 +0200
+Served asset /application.js - 200 OK (5ms)
+
+
+Started GET "/clients" for 127.0.0.1 at 2012-06-05 12:39:24 +0200
+  Processing by ClientsController#index as HTML
+  [1m[36mClient Load (0.3ms)[0m  [1mSELECT `clients`.* FROM `clients` [0m
+Rendered clients/index.html.erb within layouts/application (23.4ms)
+Completed 200 OK in 37ms (Views: 34.0ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-05 12:39:24 +0200
+Served asset /application.css - 200 OK (7ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-06-05 12:39:24 +0200
+Served asset /scaffolds.css - 200 OK (0ms)
+
+
+Started GET "/assets/invoices.css?body=1" for 127.0.0.1 at 2012-06-05 12:39:24 +0200
+Served asset /invoices.css - 200 OK (0ms)
+
+
+Started GET "/assets/clients.css?body=1" for 127.0.0.1 at 2012-06-05 12:39:24 +0200
+Served asset /clients.css - 200 OK (0ms)
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2012-06-05 12:39:24 +0200
+Served asset /products.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-06-05 12:39:24 +0200
+Served asset /jquery.js - 200 OK (0ms)
+
+
+Started GET "/assets/clients.js?body=1" for 127.0.0.1 at 2012-06-05 12:39:24 +0200
+Served asset /clients.js - 200 OK (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-06-05 12:39:24 +0200
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/invoices.js?body=1" for 127.0.0.1 at 2012-06-05 12:39:24 +0200
+Served asset /invoices.js - 200 OK (0ms)
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2012-06-05 12:39:24 +0200
+Served asset /products.js - 200 OK (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-06-05 12:39:24 +0200
+Served asset /application.js - 200 OK (1ms)
+
+
+Started GET "/clients" for 127.0.0.1 at 2012-06-05 12:39:31 +0200
+  Processing by ClientsController#index as HTML
+  [1m[35mClient Load (0.2ms)[0m  SELECT `clients`.* FROM `clients` 
+Rendered clients/index.html.erb within layouts/application (18.5ms)
+Completed 200 OK in 31ms (Views: 28.0ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-05 12:39:31 +0200
+Served asset /application.css - 200 OK (4ms)
+
+
+Started GET "/assets/invoices.css?body=1" for 127.0.0.1 at 2012-06-05 12:39:31 +0200
+Served asset /invoices.css - 200 OK (0ms)
+
+
+Started GET "/assets/clients.css?body=1" for 127.0.0.1 at 2012-06-05 12:39:31 +0200
+Served asset /clients.css - 200 OK (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-06-05 12:39:31 +0200
+Served asset /scaffolds.css - 200 OK (0ms)
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2012-06-05 12:39:31 +0200
+Served asset /products.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-06-05 12:39:31 +0200
+Served asset /jquery.js - 200 OK (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-06-05 12:39:31 +0200
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/clients.js?body=1" for 127.0.0.1 at 2012-06-05 12:39:31 +0200
+Served asset /clients.js - 200 OK (0ms)
+
+
+Started GET "/assets/invoices.js?body=1" for 127.0.0.1 at 2012-06-05 12:39:31 +0200
+Served asset /invoices.js - 200 OK (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-06-05 12:39:31 +0200
+Served asset /application.js - 200 OK (1ms)
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2012-06-05 12:39:31 +0200
+Served asset /products.js - 200 OK (0ms)
+
+
+Started GET "/clients" for 127.0.0.1 at 2012-06-05 12:40:01 +0200
+  Processing by ClientsController#index as HTML
+  [1m[36mClient Load (0.2ms)[0m  [1mSELECT `clients`.* FROM `clients` [0m
+Rendered clients/index.html.erb within layouts/application (19.5ms)
+Completed 200 OK in 31ms (Views: 28.7ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-05 12:40:01 +0200
+Served asset /application.css - 200 OK (5ms)
+
+
+Started GET "/assets/invoices.css?body=1" for 127.0.0.1 at 2012-06-05 12:40:01 +0200
+Served asset /invoices.css - 200 OK (4ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-06-05 12:40:01 +0200
+Served asset /scaffolds.css - 200 OK (0ms)
+
+
+Started GET "/assets/clients.css?body=1" for 127.0.0.1 at 2012-06-05 12:40:01 +0200
+Served asset /clients.css - 200 OK (0ms)
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2012-06-05 12:40:01 +0200
+Served asset /products.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-06-05 12:40:01 +0200
+Served asset /jquery.js - 200 OK (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-06-05 12:40:01 +0200
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/clients.js?body=1" for 127.0.0.1 at 2012-06-05 12:40:01 +0200
+Served asset /clients.js - 200 OK (0ms)
+
+
+Started GET "/assets/invoices.js?body=1" for 127.0.0.1 at 2012-06-05 12:40:01 +0200
+Served asset /invoices.js - 200 OK (0ms)
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2012-06-05 12:40:01 +0200
+Served asset /products.js - 200 OK (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-06-05 12:40:01 +0200
+Served asset /application.js - 200 OK (1ms)
+
+
+Started GET "/clients" for 127.0.0.1 at 2012-06-05 12:40:07 +0200
+  Processing by ClientsController#index as HTML
+  [1m[35mClient Load (0.4ms)[0m  SELECT `clients`.* FROM `clients` 
+Rendered clients/index.html.erb within layouts/application (62.3ms)
+Completed 200 OK in 76ms (Views: 72.6ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/assets/invoices.css?body=1" for 127.0.0.1 at 2012-06-05 12:40:07 +0200
+Served asset /invoices.css - 200 OK (0ms)
+
+
+Started GET "/assets/clients.css?body=1" for 127.0.0.1 at 2012-06-05 12:40:07 +0200
+Served asset /clients.css - 200 OK (0ms)
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2012-06-05 12:40:07 +0200
+Served asset /products.css - 200 OK (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-05 12:40:07 +0200
+Served asset /application.css - 200 OK (1ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-06-05 12:40:07 +0200
+Served asset /scaffolds.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-06-05 12:40:07 +0200
+Served asset /jquery.js - 200 OK (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-06-05 12:40:07 +0200
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/clients.js?body=1" for 127.0.0.1 at 2012-06-05 12:40:07 +0200
+Served asset /clients.js - 200 OK (0ms)
+
+
+Started GET "/assets/invoices.js?body=1" for 127.0.0.1 at 2012-06-05 12:40:07 +0200
+Served asset /invoices.js - 200 OK (0ms)
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2012-06-05 12:40:07 +0200
+Served asset /products.js - 200 OK (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-06-05 12:40:07 +0200
+Served asset /application.js - 200 OK (0ms)
+
+
+Started GET "/clients" for 127.0.0.1 at 2012-06-05 12:41:06 +0200
+  Processing by ClientsController#index as HTML
+  [1m[36mClient Load (0.3ms)[0m  [1mSELECT `clients`.* FROM `clients` [0m
+Rendered clients/index.html.erb within layouts/application (69.8ms)
+Completed 200 OK in 83ms (Views: 79.8ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-05 12:41:06 +0200
+Served asset /application.css - 200 OK (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-06-05 12:41:06 +0200
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2012-06-05 12:41:06 +0200
+Served asset /products.css - 200 OK (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-06-05 12:41:06 +0200
+Served asset /scaffolds.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-06-05 12:41:06 +0200
+Served asset /jquery.js - 200 OK (0ms)
+
+
+Started GET "/assets/clients.css?body=1" for 127.0.0.1 at 2012-06-05 12:41:06 +0200
+Served asset /clients.css - 200 OK (0ms)
+
+
+Started GET "/assets/invoices.css?body=1" for 127.0.0.1 at 2012-06-05 12:41:06 +0200
+Served asset /invoices.css - 200 OK (0ms)
+
+
+Started GET "/assets/clients.js?body=1" for 127.0.0.1 at 2012-06-05 12:41:06 +0200
+Served asset /clients.js - 200 OK (0ms)
+
+
+Started GET "/assets/invoices.js?body=1" for 127.0.0.1 at 2012-06-05 12:41:06 +0200
+Served asset /invoices.js - 200 OK (0ms)
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2012-06-05 12:41:06 +0200
+Served asset /products.js - 200 OK (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-06-05 12:41:06 +0200
+Served asset /application.js - 200 OK (0ms)
+
+
+Started GET "/clients" for 127.0.0.1 at 2012-06-05 12:41:23 +0200
+  Processing by ClientsController#index as HTML
+  [1m[35mClient Load (0.3ms)[0m  SELECT `clients`.* FROM `clients` 
+Rendered clients/index.html.erb within layouts/application (65.6ms)
+Completed 200 OK in 78ms (Views: 75.9ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/invoices.css?body=1" for 127.0.0.1 at 2012-06-05 12:41:23 +0200
+Served asset /invoices.css - 200 OK (0ms)
+
+
+Started GET "/assets/clients.css?body=1" for 127.0.0.1 at 2012-06-05 12:41:23 +0200
+Served asset /clients.css - 200 OK (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-05 12:41:23 +0200
+Served asset /application.css - 200 OK (2ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-06-05 12:41:23 +0200
+Served asset /scaffolds.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-06-05 12:41:23 +0200
+Served asset /jquery.js - 200 OK (0ms)
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2012-06-05 12:41:23 +0200
+Served asset /products.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-06-05 12:41:23 +0200
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/clients.js?body=1" for 127.0.0.1 at 2012-06-05 12:41:23 +0200
+Served asset /clients.js - 200 OK (0ms)
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2012-06-05 12:41:23 +0200
+Served asset /products.js - 200 OK (0ms)
+
+
+Started GET "/assets/invoices.js?body=1" for 127.0.0.1 at 2012-06-05 12:41:23 +0200
+Served asset /invoices.js - 200 OK (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-06-05 12:41:23 +0200
+Served asset /application.js - 200 OK (0ms)
+
+
+Started GET "/clients" for 127.0.0.1 at 2012-06-05 12:41:29 +0200
+  Processing by ClientsController#index as HTML
+  [1m[36mClient Load (0.2ms)[0m  [1mSELECT `clients`.* FROM `clients` [0m
+Rendered clients/index.html.erb within layouts/application (18.3ms)
+Completed 200 OK in 29ms (Views: 26.6ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-05 12:41:29 +0200
+Served asset /application.css - 200 OK (1ms)
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2012-06-05 12:41:29 +0200
+Served asset /products.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-06-05 12:41:29 +0200
+Served asset /jquery.js - 200 OK (0ms)
+
+
+Started GET "/assets/invoices.css?body=1" for 127.0.0.1 at 2012-06-05 12:41:29 +0200
+Served asset /invoices.css - 200 OK (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-06-05 12:41:29 +0200
+Served asset /scaffolds.css - 200 OK (0ms)
+
+
+Started GET "/assets/clients.css?body=1" for 127.0.0.1 at 2012-06-05 12:41:29 +0200
+Served asset /clients.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-06-05 12:41:29 +0200
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/clients.js?body=1" for 127.0.0.1 at 2012-06-05 12:41:29 +0200
+Served asset /clients.js - 200 OK (0ms)
+
+
+Started GET "/assets/invoices.js?body=1" for 127.0.0.1 at 2012-06-05 12:41:29 +0200
+Served asset /invoices.js - 200 OK (0ms)
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2012-06-05 12:41:29 +0200
+Served asset /products.js - 200 OK (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-06-05 12:41:29 +0200
+Served asset /application.js - 200 OK (1ms)
+
+
+Started GET "/clients" for 127.0.0.1 at 2012-06-05 12:41:45 +0200
+  Processing by ClientsController#index as HTML
+  [1m[35mClient Load (0.2ms)[0m  SELECT `clients`.* FROM `clients` 
+Rendered clients/index.html.erb within layouts/application (18.4ms)
+Completed 200 OK in 30ms (Views: 26.9ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/assets/clients.css?body=1" for 127.0.0.1 at 2012-06-05 12:41:45 +0200
+Served asset /clients.css - 200 OK (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-06-05 12:41:45 +0200
+Served asset /scaffolds.css - 200 OK (2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-05 12:41:45 +0200
+Served asset /application.css - 200 OK (3ms)
+
+
+Started GET "/assets/invoices.css?body=1" for 127.0.0.1 at 2012-06-05 12:41:45 +0200
+Served asset /invoices.css - 200 OK (0ms)
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2012-06-05 12:41:45 +0200
+Served asset /products.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-06-05 12:41:45 +0200
+Served asset /jquery.js - 200 OK (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-06-05 12:41:45 +0200
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/clients.js?body=1" for 127.0.0.1 at 2012-06-05 12:41:45 +0200
+Served asset /clients.js - 200 OK (0ms)
+
+
+Started GET "/assets/invoices.js?body=1" for 127.0.0.1 at 2012-06-05 12:41:45 +0200
+Served asset /invoices.js - 200 OK (0ms)
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2012-06-05 12:41:45 +0200
+Served asset /products.js - 200 OK (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-06-05 12:41:45 +0200
+Served asset /application.js - 200 OK (1ms)
+
+
+Started GET "/clients" for 127.0.0.1 at 2012-06-05 12:41:50 +0200
+  Processing by ClientsController#index as HTML
+  [1m[36mClient Load (0.2ms)[0m  [1mSELECT `clients`.* FROM `clients` [0m
+Rendered clients/index.html.erb within layouts/application (17.9ms)
+Completed 200 OK in 31ms (Views: 27.4ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/assets/invoices.css?body=1" for 127.0.0.1 at 2012-06-05 12:41:50 +0200
+Served asset /invoices.css - 200 OK (1ms)
+
+
+Started GET "/assets/clients.css?body=1" for 127.0.0.1 at 2012-06-05 12:41:50 +0200
+Served asset /clients.css - 200 OK (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-05 12:41:50 +0200
+Served asset /application.css - 200 OK (2ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-06-05 12:41:50 +0200
+Served asset /scaffolds.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-06-05 12:41:50 +0200
+Served asset /jquery.js - 200 OK (0ms)
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2012-06-05 12:41:50 +0200
+Served asset /products.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-06-05 12:41:50 +0200
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/clients.js?body=1" for 127.0.0.1 at 2012-06-05 12:41:50 +0200
+Served asset /clients.js - 200 OK (0ms)
+
+
+Started GET "/assets/invoices.js?body=1" for 127.0.0.1 at 2012-06-05 12:41:50 +0200
+Served asset /invoices.js - 200 OK (0ms)
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2012-06-05 12:41:50 +0200
+Served asset /products.js - 200 OK (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-06-05 12:41:50 +0200
+Served asset /application.js - 200 OK (1ms)
+
+
+Started GET "/clients" for 127.0.0.1 at 2012-06-05 12:42:03 +0200
+  Processing by ClientsController#index as HTML
+  [1m[35mClient Load (0.3ms)[0m  SELECT `clients`.* FROM `clients` 
+Rendered clients/index.html.erb within layouts/application (19.2ms)
+Completed 200 OK in 31ms (Views: 28.1ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-05 12:42:03 +0200
+Served asset /application.css - 200 OK (7ms)
+
+
+Started GET "/assets/invoices.css?body=1" for 127.0.0.1 at 2012-06-05 12:42:03 +0200
+Served asset /invoices.css - 200 OK (0ms)
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2012-06-05 12:42:03 +0200
+Served asset /products.css - 200 OK (0ms)
+
+
+Started GET "/assets/clients.css?body=1" for 127.0.0.1 at 2012-06-05 12:42:03 +0200
+Served asset /clients.css - 200 OK (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-06-05 12:42:03 +0200
+Served asset /scaffolds.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-06-05 12:42:03 +0200
+Served asset /jquery.js - 200 OK (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-06-05 12:42:03 +0200
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/clients.js?body=1" for 127.0.0.1 at 2012-06-05 12:42:03 +0200
+Served asset /clients.js - 200 OK (0ms)
+
+
+Started GET "/assets/invoices.js?body=1" for 127.0.0.1 at 2012-06-05 12:42:03 +0200
+Served asset /invoices.js - 200 OK (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-06-05 12:42:03 +0200
+Served asset /application.js - 200 OK (1ms)
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2012-06-05 12:42:03 +0200
+Served asset /products.js - 200 OK (0ms)
+
+
+Started GET "/products" for 127.0.0.1 at 2012-06-05 12:42:09 +0200
+  Processing by ProductsController#index as HTML
+  [1m[36mProduct Load (0.5ms)[0m  [1mSELECT `products`.* FROM `products` [0m
+Rendered products/index.html.erb within layouts/application (64.3ms)
+Completed 200 OK in 84ms (Views: 81.9ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2012-06-05 12:42:09 +0200
+Served asset /products.css - 200 OK (5ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-05 12:42:09 +0200
+Served asset /application.css - 200 OK (1ms)
+
+
+Started GET "/assets/invoices.css?body=1" for 127.0.0.1 at 2012-06-05 12:42:09 +0200
+Served asset /invoices.css - 200 OK (0ms)
+
+
+Started GET "/assets/clients.css?body=1" for 127.0.0.1 at 2012-06-05 12:42:09 +0200
+Served asset /clients.css - 200 OK (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-06-05 12:42:09 +0200
+Served asset /scaffolds.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-06-05 12:42:09 +0200
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-06-05 12:42:09 +0200
+Served asset /jquery.js - 200 OK (0ms)
+
+
+Started GET "/assets/clients.js?body=1" for 127.0.0.1 at 2012-06-05 12:42:09 +0200
+Served asset /clients.js - 200 OK (0ms)
+
+
+Started GET "/assets/invoices.js?body=1" for 127.0.0.1 at 2012-06-05 12:42:09 +0200
+Served asset /invoices.js - 200 OK (0ms)
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2012-06-05 12:42:09 +0200
+Served asset /products.js - 200 OK (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-06-05 12:42:09 +0200
+Served asset /application.js - 200 OK (1ms)
+
+
+Started GET "/clients" for 127.0.0.1 at 2012-06-05 12:42:25 +0200
+  Processing by ClientsController#index as HTML
+  [1m[35mClient Load (0.3ms)[0m  SELECT `clients`.* FROM `clients` 
+Rendered clients/index.html.erb within layouts/application (71.2ms)
+Completed 200 OK in 84ms (Views: 81.5ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2012-06-05 12:42:25 +0200
+Served asset /products.css - 200 OK (3ms)
+
+
+Started GET "/assets/clients.css?body=1" for 127.0.0.1 at 2012-06-05 12:42:25 +0200
+Served asset /clients.css - 200 OK (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-05 12:42:25 +0200
+Served asset /application.css - 200 OK (1ms)
+
+
+Started GET "/assets/invoices.css?body=1" for 127.0.0.1 at 2012-06-05 12:42:25 +0200
+Served asset /invoices.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-06-05 12:42:25 +0200
+Served asset /jquery.js - 200 OK (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-06-05 12:42:25 +0200
+Served asset /scaffolds.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-06-05 12:42:25 +0200
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/invoices.js?body=1" for 127.0.0.1 at 2012-06-05 12:42:25 +0200
+Served asset /invoices.js - 200 OK (1ms)
+
+
+Started GET "/assets/clients.js?body=1" for 127.0.0.1 at 2012-06-05 12:42:25 +0200
+Served asset /clients.js - 200 OK (0ms)
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2012-06-05 12:42:25 +0200
+Served asset /products.js - 200 OK (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-06-05 12:42:25 +0200
+Served asset /application.js - 200 OK (1ms)
+
+
+Started GET "/clients" for 127.0.0.1 at 2012-06-05 12:42:44 +0200
+  Processing by ClientsController#index as HTML
+  [1m[36mClient Load (0.3ms)[0m  [1mSELECT `clients`.* FROM `clients` [0m
+Rendered clients/index.html.erb within layouts/application (22.4ms)
+Completed 200 OK in 36ms (Views: 33.2ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-05 12:42:44 +0200
+Served asset /application.css - 200 OK (7ms)
+
+
+Started GET "/assets/clients.css?body=1" for 127.0.0.1 at 2012-06-05 12:42:44 +0200
+Served asset /clients.css - 200 OK (0ms)
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2012-06-05 12:42:44 +0200
+Served asset /products.css - 200 OK (0ms)
+
+
+Started GET "/assets/invoices.css?body=1" for 127.0.0.1 at 2012-06-05 12:42:44 +0200
+Served asset /invoices.css - 200 OK (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-06-05 12:42:44 +0200
+Served asset /scaffolds.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-06-05 12:42:44 +0200
+Served asset /jquery.js - 200 OK (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-06-05 12:42:44 +0200
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/clients.js?body=1" for 127.0.0.1 at 2012-06-05 12:42:44 +0200
+Served asset /clients.js - 200 OK (0ms)
+
+
+Started GET "/assets/invoices.js?body=1" for 127.0.0.1 at 2012-06-05 12:42:44 +0200
+Served asset /invoices.js - 200 OK (0ms)
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2012-06-05 12:42:44 +0200
+Served asset /products.js - 200 OK (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-06-05 12:42:44 +0200
+Served asset /application.js - 200 OK (1ms)
+
+
+Started GET "/clients" for 127.0.0.1 at 2012-06-05 12:42:53 +0200
+  Processing by ClientsController#index as HTML
+  [1m[35mClient Load (0.3ms)[0m  SELECT `clients`.* FROM `clients` 
+Rendered clients/index.html.erb within layouts/application (22.2ms)
+Completed 200 OK in 36ms (Views: 33.1ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/clients.css?body=1" for 127.0.0.1 at 2012-06-05 12:42:53 +0200
+Served asset /clients.css - 200 OK (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-05 12:42:53 +0200
+Served asset /application.css - 200 OK (1ms)
+
+
+Started GET "/assets/invoices.css?body=1" for 127.0.0.1 at 2012-06-05 12:42:53 +0200
+Served asset /invoices.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-06-05 12:42:53 +0200
+Served asset /jquery.js - 200 OK (0ms)
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2012-06-05 12:42:53 +0200
+Served asset /products.css - 200 OK (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-06-05 12:42:53 +0200
+Served asset /scaffolds.css - 200 OK (0ms)
+
+
+Started GET "/assets/clients.js?body=1" for 127.0.0.1 at 2012-06-05 12:42:53 +0200
+Served asset /clients.js - 200 OK (0ms)
+
+
+Started GET "/assets/invoices.js?body=1" for 127.0.0.1 at 2012-06-05 12:42:53 +0200
+Served asset /invoices.js - 200 OK (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-06-05 12:42:53 +0200
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2012-06-05 12:42:53 +0200
+Served asset /products.js - 200 OK (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-06-05 12:42:53 +0200
+Served asset /application.js - 200 OK (2ms)
+
+
+Started GET "/clients" for 127.0.0.1 at 2012-06-05 12:43:12 +0200
+  Processing by ClientsController#index as HTML
+  [1m[36mClient Load (0.2ms)[0m  [1mSELECT `clients`.* FROM `clients` [0m
+Rendered clients/index.html.erb within layouts/application (17.5ms)
+Completed 200 OK in 28ms (Views: 25.9ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-05 12:43:12 +0200
+Served asset /application.css - 200 OK (8ms)
+
+
+Started GET "/assets/clients.css?body=1" for 127.0.0.1 at 2012-06-05 12:43:12 +0200
+Served asset /clients.css - 200 OK (0ms)
+
+
+Started GET "/assets/invoices.css?body=1" for 127.0.0.1 at 2012-06-05 12:43:12 +0200
+Served asset /invoices.css - 200 OK (0ms)
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2012-06-05 12:43:12 +0200
+Served asset /products.css - 200 OK (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-06-05 12:43:12 +0200
+Served asset /scaffolds.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-06-05 12:43:12 +0200
+Served asset /jquery.js - 200 OK (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-06-05 12:43:12 +0200
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/clients.js?body=1" for 127.0.0.1 at 2012-06-05 12:43:12 +0200
+Served asset /clients.js - 200 OK (0ms)
+
+
+Started GET "/assets/invoices.js?body=1" for 127.0.0.1 at 2012-06-05 12:43:12 +0200
+Served asset /invoices.js - 200 OK (0ms)
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2012-06-05 12:43:12 +0200
+Served asset /products.js - 200 OK (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-06-05 12:43:12 +0200
+Served asset /application.js - 200 OK (1ms)
+
+
+Started GET "/clients" for 127.0.0.1 at 2012-06-05 12:43:16 +0200
+  Processing by ClientsController#index as HTML
+  [1m[35mClient Load (0.2ms)[0m  SELECT `clients`.* FROM `clients` 
+Rendered clients/index.html.erb within layouts/application (17.3ms)
+Completed 200 OK in 29ms (Views: 25.7ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-05 12:43:16 +0200
+Served asset /application.css - 200 OK (5ms)
+
+
+Started GET "/assets/clients.css?body=1" for 127.0.0.1 at 2012-06-05 12:43:16 +0200
+Served asset /clients.css - 200 OK (0ms)
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2012-06-05 12:43:16 +0200
+Served asset /products.css - 200 OK (0ms)
+
+
+Started GET "/assets/invoices.css?body=1" for 127.0.0.1 at 2012-06-05 12:43:16 +0200
+Served asset /invoices.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-06-05 12:43:16 +0200
+Served asset /jquery.js - 200 OK (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-06-05 12:43:16 +0200
+Served asset /scaffolds.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-06-05 12:43:16 +0200
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/invoices.js?body=1" for 127.0.0.1 at 2012-06-05 12:43:16 +0200
+Served asset /invoices.js - 200 OK (0ms)
+
+
+Started GET "/assets/clients.js?body=1" for 127.0.0.1 at 2012-06-05 12:43:16 +0200
+Served asset /clients.js - 200 OK (0ms)
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2012-06-05 12:43:16 +0200
+Served asset /products.js - 200 OK (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-06-05 12:43:16 +0200
+Served asset /application.js - 200 OK (0ms)
+
+
+Started GET "/clients" for 127.0.0.1 at 2012-06-05 12:43:20 +0200
+  Processing by ClientsController#index as HTML
+  [1m[36mClient Load (0.2ms)[0m  [1mSELECT `clients`.* FROM `clients` [0m
+Rendered clients/index.html.erb within layouts/application (21.6ms)
+Completed 200 OK in 78ms (Views: 31.4ms | ActiveRecord: 43.0ms)
+
+
+Started GET "/assets/invoices.css?body=1" for 127.0.0.1 at 2012-06-05 12:43:20 +0200
+Served asset /invoices.css - 200 OK (0ms)
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2012-06-05 12:43:20 +0200
+Served asset /products.css - 200 OK (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-05 12:43:20 +0200
+Served asset /application.css - 200 OK (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-06-05 12:43:20 +0200
+Served asset /jquery.js - 200 OK (0ms)
+
+
+Started GET "/assets/clients.css?body=1" for 127.0.0.1 at 2012-06-05 12:43:20 +0200
+Served asset /clients.css - 200 OK (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-06-05 12:43:20 +0200
+Served asset /scaffolds.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-06-05 12:43:20 +0200
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/clients.js?body=1" for 127.0.0.1 at 2012-06-05 12:43:20 +0200
+Served asset /clients.js - 200 OK (0ms)
+
+
+Started GET "/assets/invoices.js?body=1" for 127.0.0.1 at 2012-06-05 12:43:20 +0200
+Served asset /invoices.js - 200 OK (0ms)
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2012-06-05 12:43:20 +0200
+Served asset /products.js - 200 OK (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-06-05 12:43:20 +0200
+Served asset /application.js - 200 OK (1ms)
+
+
+Started GET "/clients" for 127.0.0.1 at 2012-06-05 12:43:29 +0200
+  Processing by ClientsController#index as HTML
+  [1m[35mClient Load (0.3ms)[0m  SELECT `clients`.* FROM `clients` 
+Rendered clients/index.html.erb within layouts/application (74.0ms)
+Completed 200 OK in 86ms (Views: 83.7ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-05 12:43:29 +0200
+Served asset /application.css - 200 OK (9ms)
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2012-06-05 12:43:29 +0200
+Served asset /products.css - 200 OK (0ms)
+
+
+Started GET "/assets/clients.css?body=1" for 127.0.0.1 at 2012-06-05 12:43:29 +0200
+Served asset /clients.css - 200 OK (0ms)
+
+
+Started GET "/assets/invoices.css?body=1" for 127.0.0.1 at 2012-06-05 12:43:29 +0200
+Served asset /invoices.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-06-05 12:43:29 +0200
+Served asset /jquery.js - 200 OK (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-06-05 12:43:29 +0200
+Served asset /scaffolds.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-06-05 12:43:29 +0200
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/clients.js?body=1" for 127.0.0.1 at 2012-06-05 12:43:29 +0200
+Served asset /clients.js - 200 OK (0ms)
+
+
+Started GET "/assets/invoices.js?body=1" for 127.0.0.1 at 2012-06-05 12:43:29 +0200
+Served asset /invoices.js - 200 OK (0ms)
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2012-06-05 12:43:29 +0200
+Served asset /products.js - 200 OK (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-06-05 12:43:29 +0200
+Served asset /application.js - 200 OK (1ms)
+
+
+Started GET "/clients/298486374" for 127.0.0.1 at 2012-06-05 12:43:34 +0200
+  Processing by ClientsController#show as HTML
+  Parameters: {"id"=>"298486374"}
+  [1m[36mClient Load (0.3ms)[0m  [1mSELECT `clients`.* FROM `clients` WHERE `clients`.`id` = 298486374 LIMIT 1[0m
+Rendered clients/show.html.erb within layouts/application (12.5ms)
+Completed 200 OK in 44ms (Views: 39.8ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-05 12:43:34 +0200
+Served asset /application.css - 200 OK (1ms)
+
+
+Started GET "/assets/clients.css?body=1" for 127.0.0.1 at 2012-06-05 12:43:34 +0200
+Served asset /clients.css - 200 OK (0ms)
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2012-06-05 12:43:34 +0200
+Served asset /products.css - 200 OK (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-06-05 12:43:34 +0200
+Served asset /scaffolds.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-06-05 12:43:34 +0200
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/invoices.css?body=1" for 127.0.0.1 at 2012-06-05 12:43:34 +0200
+Served asset /invoices.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-06-05 12:43:34 +0200
+Served asset /jquery.js - 200 OK (0ms)
+
+
+Started GET "/assets/clients.js?body=1" for 127.0.0.1 at 2012-06-05 12:43:34 +0200
+Served asset /clients.js - 200 OK (0ms)
+
+
+Started GET "/assets/invoices.js?body=1" for 127.0.0.1 at 2012-06-05 12:43:34 +0200
+Served asset /invoices.js - 200 OK (0ms)
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2012-06-05 12:43:34 +0200
+Served asset /products.js - 200 OK (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-06-05 12:43:34 +0200
+Served asset /application.js - 200 OK (1ms)
+
+
+Started GET "/clients" for 127.0.0.1 at 2012-06-05 12:43:41 +0200
+  Processing by ClientsController#index as HTML
+  [1m[35mClient Load (0.3ms)[0m  SELECT `clients`.* FROM `clients` 
+Rendered clients/index.html.erb within layouts/application (23.6ms)
+Completed 200 OK in 38ms (Views: 34.5ms | ActiveRecord: 1.8ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-05 12:43:42 +0200
+Served asset /application.css - 200 OK (6ms)
+
+
+Started GET "/assets/clients.css?body=1" for 127.0.0.1 at 2012-06-05 12:43:42 +0200
+Served asset /clients.css - 200 OK (0ms)
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2012-06-05 12:43:42 +0200
+Served asset /products.css - 200 OK (0ms)
+
+
+Started GET "/assets/invoices.css?body=1" for 127.0.0.1 at 2012-06-05 12:43:42 +0200
+Served asset /invoices.css - 200 OK (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-06-05 12:43:42 +0200
+Served asset /scaffolds.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-06-05 12:43:42 +0200
+Served asset /jquery.js - 200 OK (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-06-05 12:43:42 +0200
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/clients.js?body=1" for 127.0.0.1 at 2012-06-05 12:43:42 +0200
+Served asset /clients.js - 200 OK (0ms)
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2012-06-05 12:43:42 +0200
+Served asset /products.js - 200 OK (1ms)
+
+
+Started GET "/assets/invoices.js?body=1" for 127.0.0.1 at 2012-06-05 12:43:42 +0200
+Served asset /invoices.js - 200 OK (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-06-05 12:43:42 +0200
+Served asset /application.js - 200 OK (1ms)
