@@ -1142,3 +1142,185 @@ Served asset /products.js - 200 OK (0ms)
 
 Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-06-04 22:05:14 +0200
 Served asset /application.js - 200 OK (1ms)
+  [1m[36m (0.3ms)[0m  [1mSELECT @@FOREIGN_KEY_CHECKS[0m
+  [1m[35m (0.1ms)[0m  SET FOREIGN_KEY_CHECKS = 0
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mFixture Delete (0.3ms)[0m  DELETE FROM `products`
+  [1m[36mFixture Insert (0.4ms)[0m  [1mINSERT INTO `products` (`sku`, `name`, `description`, `price`, `created_at`, `updated_at`, `id`) VALUES (2993, 'Maplebook Pro', 'Gute alternative zum Apfel', 2380, '2012-06-04 20:37:03', '2012-06-04 20:37:03', 980190962)[0m
+  [1m[35mFixture Insert (0.2ms)[0m  INSERT INTO `products` (`sku`, `name`, `description`, `price`, `created_at`, `updated_at`, `id`) VALUES (2347, 'Microsaft Win-Doors', 'Good Operating System with doors ...', 79, '2012-06-04 20:37:03', '2012-06-04 20:37:03', 298486374)
+  [1m[36mFixture Insert (0.1ms)[0m  [1mINSERT INTO `products` (`sku`, `name`, `description`, `price`, `created_at`, `updated_at`, `id`) VALUES (2376, 'U-Tuntu', 'Best Limox Operating System in the World', 29, '2012-06-04 20:37:03', '2012-06-04 20:37:03', 113629430)[0m
+  [1m[35m (135.8ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mSET FOREIGN_KEY_CHECKS = 1[0m
+  [1m[35m (0.2ms)[0m  SELECT @@FOREIGN_KEY_CHECKS
+  [1m[36m (0.1ms)[0m  [1mSET FOREIGN_KEY_CHECKS = 0[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mFixture Delete (0.3ms)[0m  [1mDELETE FROM `clients`[0m
+  [1m[35mFixture Insert (0.3ms)[0m  INSERT INTO `clients` (`company`, `forename`, `name`, `street`, `zip`, `city`, `country`, `comments`, `created_at`, `updated_at`, `id`) VALUES ('Müller GmbH', 'Alfred', 'Müller', 'Dicke Strass 14', 67823, 'Hodenhagen', 'Germany', 'Toller kunde', '2012-06-04 20:37:03', '2012-06-04 20:37:03', 980190962)
+  [1m[36mFixture Insert (0.3ms)[0m  [1mINSERT INTO `clients` (`company`, `forename`, `name`, `street`, `zip`, `city`, `country`, `comments`, `created_at`, `updated_at`, `id`) VALUES ('Meier AG', 'Gertrud', 'Meier', 'Hauptstrasse 33', 78932, 'Heidelberg', 'Germany', NULL, '2012-06-04 20:37:03', '2012-06-04 20:37:03', 298486374)[0m
+  [1m[35mFixture Insert (0.3ms)[0m  INSERT INTO `clients` (`company`, `forename`, `name`, `street`, `zip`, `city`, `country`, `comments`, `created_at`, `updated_at`, `id`) VALUES ('Schuster AG', 'Horst', 'Schuster', 'Poccistrasse 5', 81234, 'München', 'Germany', NULL, '2012-06-04 20:37:03', '2012-06-04 20:37:03', 113629430)
+  [1m[36mFixture Insert (0.2ms)[0m  [1mINSERT INTO `clients` (`company`, `forename`, `name`, `street`, `zip`, `city`, `country`, `comments`, `created_at`, `updated_at`, `id`) VALUES ('Schmidt KG', 'Helmut', 'Schmidt', 'Nebenstrasse 12', 78932, 'Heidelberg', 'Germany', 'Frau hat das sagen', '2012-06-04 20:37:03', '2012-06-04 20:37:03', 281110143)[0m
+  [1m[35mFixture Insert (0.3ms)[0m  INSERT INTO `clients` (`company`, `forename`, `name`, `street`, `zip`, `city`, `country`, `comments`, `created_at`, `updated_at`, `id`) VALUES ('Pisch GmbH', 'Thorsten', 'Köllermann', 'Keinestrasse 84', 98321, 'Nürnberg', 'Germany', 'Kunde Zahlt nicht so gerne ...', '2012-06-04 20:37:03', '2012-06-04 20:37:03', 1018350795)
+  [1m[36mFixture Insert (0.2ms)[0m  [1mINSERT INTO `clients` (`company`, `forename`, `name`, `street`, `zip`, `city`, `country`, `comments`, `created_at`, `updated_at`, `id`) VALUES ('Hugenhobel GmbH', 'Brunhilde', 'Rindfleisch', 'Ghettogasse 75', 32618, 'Bielefeld', 'Germany', 'wohnt in Bielefeld - das gibts tatsächlich ...', '2012-06-04 20:37:03', '2012-06-04 20:37:03', 51848956)[0m
+  [1m[35m (72.9ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mSET FOREIGN_KEY_CHECKS = 1[0m
+  [1m[35m (0.1ms)[0m  SELECT @@FOREIGN_KEY_CHECKS
+  [1m[36m (0.1ms)[0m  [1mSET FOREIGN_KEY_CHECKS = 0[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mFixture Delete (0.2ms)[0m  [1mDELETE FROM `invoices`[0m
+  [1m[35mFixture Insert (0.3ms)[0m  INSERT INTO `invoices` (`clients_id`, `products_id`, `created_at`, `updated_at`, `id`) VALUES ('MyString', 'MyString', '2012-06-04 20:37:03', '2012-06-04 20:37:03', 980190962)
+  [1m[36mFixture Insert (0.2ms)[0m  [1mINSERT INTO `invoices` (`clients_id`, `products_id`, `created_at`, `updated_at`, `id`) VALUES ('MyString', 'MyString', '2012-06-04 20:37:03', '2012-06-04 20:37:03', 298486374)[0m
+  [1m[35m (47.2ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mSET FOREIGN_KEY_CHECKS = 1[0m
+
+
+Started GET "/products" for 127.0.0.1 at 2012-06-04 22:37:15 +0200
+  Processing by ProductsController#index as HTML
+  [1m[36mProduct Load (0.6ms)[0m  [1mSELECT `products`.* FROM `products` [0m
+Rendered products/index.html.erb within layouts/application (20.4ms)
+Completed 200 OK in 70ms (Views: 67.0ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-04 22:37:16 +0200
+Served asset /application.css - 200 OK (2ms)
+
+
+Started GET "/assets/clients.css?body=1" for 127.0.0.1 at 2012-06-04 22:37:16 +0200
+Served asset /clients.css - 200 OK (4ms)
+
+
+Started GET "/assets/invoices.css?body=1" for 127.0.0.1 at 2012-06-04 22:37:16 +0200
+Served asset /invoices.css - 200 OK (3ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-06-04 22:37:16 +0200
+Served asset /jquery.js - 200 OK (5ms)
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2012-06-04 22:37:16 +0200
+Served asset /products.css - 200 OK (4ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-06-04 22:37:16 +0200
+Served asset /scaffolds.css - 200 OK (3ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-06-04 22:37:16 +0200
+Served asset /jquery_ujs.js - 200 OK (3ms)
+
+
+Started GET "/assets/clients.js?body=1" for 127.0.0.1 at 2012-06-04 22:37:16 +0200
+Served asset /clients.js - 200 OK (5ms)
+
+
+Started GET "/assets/invoices.js?body=1" for 127.0.0.1 at 2012-06-04 22:37:16 +0200
+Served asset /invoices.js - 200 OK (1ms)
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2012-06-04 22:37:16 +0200
+Served asset /products.js - 200 OK (2ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-06-04 22:37:16 +0200
+Served asset /application.js - 200 OK (40ms)
+
+
+Started GET "/clients" for 127.0.0.1 at 2012-06-04 22:37:21 +0200
+  Processing by ClientsController#index as HTML
+  [1m[35mClient Load (0.5ms)[0m  SELECT `clients`.* FROM `clients` 
+Rendered clients/index.html.erb within layouts/application (16.3ms)
+Completed 200 OK in 27ms (Views: 24.2ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-04 22:37:22 +0200
+Served asset /application.css - 200 OK (2ms)
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2012-06-04 22:37:22 +0200
+Served asset /products.css - 200 OK (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-06-04 22:37:22 +0200
+Served asset /scaffolds.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-06-04 22:37:22 +0200
+Served asset /jquery.js - 200 OK (0ms)
+
+
+Started GET "/assets/invoices.css?body=1" for 127.0.0.1 at 2012-06-04 22:37:22 +0200
+Served asset /invoices.css - 200 OK (0ms)
+
+
+Started GET "/assets/clients.css?body=1" for 127.0.0.1 at 2012-06-04 22:37:22 +0200
+Served asset /clients.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-06-04 22:37:22 +0200
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/clients.js?body=1" for 127.0.0.1 at 2012-06-04 22:37:22 +0200
+Served asset /clients.js - 200 OK (0ms)
+
+
+Started GET "/assets/invoices.js?body=1" for 127.0.0.1 at 2012-06-04 22:37:22 +0200
+Served asset /invoices.js - 200 OK (0ms)
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2012-06-04 22:37:22 +0200
+Served asset /products.js - 200 OK (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-06-04 22:37:22 +0200
+Served asset /application.js - 200 OK (1ms)
+
+
+Started GET "/clients/new" for 127.0.0.1 at 2012-06-04 22:40:03 +0200
+  Processing by ClientsController#new as HTML
+Rendered clients/_form.html.erb (14.5ms)
+Rendered clients/new.html.erb within layouts/application (22.7ms)
+Completed 200 OK in 31ms (Views: 29.8ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-06-04 22:40:03 +0200
+Served asset /application.css - 200 OK (2ms)
+
+
+Started GET "/assets/invoices.css?body=1" for 127.0.0.1 at 2012-06-04 22:40:03 +0200
+Served asset /invoices.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-06-04 22:40:03 +0200
+Served asset /jquery.js - 200 OK (0ms)
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2012-06-04 22:40:03 +0200
+Served asset /products.css - 200 OK (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-06-04 22:40:03 +0200
+Served asset /scaffolds.css - 200 OK (0ms)
+
+
+Started GET "/assets/clients.css?body=1" for 127.0.0.1 at 2012-06-04 22:40:03 +0200
+Served asset /clients.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-06-04 22:40:03 +0200
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/clients.js?body=1" for 127.0.0.1 at 2012-06-04 22:40:03 +0200
+Served asset /clients.js - 200 OK (0ms)
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2012-06-04 22:40:03 +0200
+Served asset /products.js - 200 OK (0ms)
+
+
+Started GET "/assets/invoices.js?body=1" for 127.0.0.1 at 2012-06-04 22:40:03 +0200
+Served asset /invoices.js - 200 OK (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-06-04 22:40:03 +0200
+Served asset /application.js - 200 OK (1ms)
